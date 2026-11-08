@@ -1,30 +1,36 @@
 # Qingzhuangjia (轻装家) — Home Renovation DIY
 
-Hi, I'm Samye — a Flutter developer. This repository is a **portfolio Dart slice** of a shipped home-renovation planning app (floor plan → 3D preview → checklist / DIY).
+Hi, I'm Samye — a Flutter developer. This repo shows the core Dart architecture of my shipped home-renovation planning app.
+
+Floor plan → 3D preview → renovation checklist / DIY: photo recognize (optional), hand-drawn canvas, renov style preview.
+
+This repository is a **public source architecture sample** of a shipped app. It is **not** a store-ready clone (native Android/iOS projects are omitted). **All Rights Reserved** — viewing does not grant commercial reuse rights.
 
 ## Scope
 
-| Included | Not included |
+| | |
 |:---|:---|
-| Flutter / Dart app core (`lib/`, `assets/`, `pubspec.yaml`) | `android/` / `ios/` native projects |
-| Floor-plan canvas, recognize flow, renov preview, DIY / checklist | Keystore, store configs, release signing |
-| Local JSON configs (city tiers, feature flags, legal stubs) | Hardcoded Vision API keys (user enters keys in-app) |
+| **Included** | `lib/` (Dart core), `assets/`, `pubspec.yaml` |
+| **Not included** | `android/`, `ios/`, signing materials, store listing configs |
+| **Store build** | Not produced from this repo alone (native projects omitted) |
+| **API key** | Vision / generation keys entered by the end user in Settings; stored locally; **no hardcoded keys** in the repo |
+| **SDK** | See `pubspec.yaml` |
 
 ## Features
 
-- **Floor plan input**: templates, hand-drawn rooms, optional photo → vision recognize (user-provided API)
-- **Plan canvas**: rooms, doors/windows, snap / edit tools
-- **3D preview**: interactive viewer for the current plan
-- **Renov preview (P1)**: photo → optional structure anchors → style → before/after (weak-prompt path; generation model optional)
-- **Diagnosis / checklist / DIY catalog**: renovation guidance surfaces
-- **City-tier estimates**: cost hints from local config
+- **Floor plan input** — templates, hand-drawn rooms, optional photo → vision recognize (user-provided API)
+- **Plan canvas** — rooms, doors/windows, snap / edit tools
+- **3D preview** — interactive viewer for the current plan
+- **Renov preview (P1)** — photo → optional structure anchors → style → before/after (weak-prompt path; generation model optional)
+- **Diagnosis / checklist / DIY catalog** — renovation guidance surfaces
+- **City-tier estimates** — cost hints from local JSON config
 
 ## Tech stack
 
 - Flutter / Dart
 - Optional OpenAI-compatible Vision API (base URL + key + models in settings)
 - Local persistence for plans / settings
-- JSON assets: city tiers, feature flags, legal summaries
+- JSON assets: city tiers, feature flags, legal stubs
 
 ## Layout
 
@@ -49,11 +55,11 @@ assets/
 
 ## Notes
 
-- This repo is for **architecture review**, not a one-click store build.
-- Vision / generation API keys are entered by the end user and stored locally — **no secrets are hardcoded**.
 - Structure understanding for renov is **center-point level** (`cx`/`cy`), not contour polygons.
 - Full native packaging and store delivery are provided as paid work.
 
 ## License
 
-Copyright (c) 2026 Ye Zhiguo (叶志国). All rights reserved. See `LICENSE`.
+See [`LICENSE`](./LICENSE) (**All Rights Reserved**).
+
+Copyright (c) 2026 Ye Zhiguo (叶志国). All rights reserved.

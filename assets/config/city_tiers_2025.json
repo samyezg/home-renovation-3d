@@ -1,0 +1,763 @@
+{
+  "source": "第一财经·新一线城市研究所《2025新一线城市魅力排行榜》",
+  "qingzhuangjia_mapping": "一线→tier1、新一线→new_tier1、二线→tier2、三/四/五线→tier3_plus",
+  "note": "公开转载未披露完整三四五线；未入表城市建议默认 tier3_plus，且允许用户手改。",
+  "updated": "2026-09-03",
+  "city_count": 124,
+  "cities": {
+    "上海": {
+      "tier": "tier1",
+      "label": "一线",
+      "sheet_label": "一线"
+    },
+    "北京": {
+      "tier": "tier1",
+      "label": "一线",
+      "sheet_label": "一线"
+    },
+    "深圳": {
+      "tier": "tier1",
+      "label": "一线",
+      "sheet_label": "一线"
+    },
+    "广州": {
+      "tier": "tier1",
+      "label": "一线",
+      "sheet_label": "一线"
+    },
+    "成都": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "杭州": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "重庆": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "武汉": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "苏州": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "西安": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "南京": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "长沙": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "郑州": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "天津": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "合肥": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "青岛": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "东莞": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "宁波": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "佛山": {
+      "tier": "new_tier1",
+      "label": "新一线",
+      "sheet_label": "新一线"
+    },
+    "济南": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "无锡": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "沈阳": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "昆明": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "福州": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "厦门": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "温州": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "石家庄": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "大连": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "哈尔滨": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "金华": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "泉州": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "南宁": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "长春": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "常州": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "南昌": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "南通": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "贵阳": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "嘉兴": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "徐州": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "惠州": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "太原": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "烟台": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "临沂": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "保定": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "台州": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "绍兴": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "珠海": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "洛阳": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "潍坊": {
+      "tier": "tier2",
+      "label": "二线",
+      "sheet_label": "二线"
+    },
+    "乌鲁木齐": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "兰州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "中山": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "盐城": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "海口": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "扬州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "济宁": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "湖州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "赣州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "邯郸": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "南阳": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "唐山": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "芜湖": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "阜阳": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "廊坊": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "汕头": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "泰州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "呼和浩特": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "镇江": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "江门": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(三线)"
+    },
+    "枣庄": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "宜宾": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "榆林": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "开封": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "邵阳": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "运城": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "清远": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "吉安": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "日照": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "许昌": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "包头": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "郴州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "滨州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "丽水": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "宣城": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "淮南": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "平顶山": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "东营": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "南充": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "秦皇岛": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "黄山": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "鞍山": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "晋中": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "曲靖": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "孝感": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(四线)"
+    },
+    "忻州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "盘锦": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "伊犁": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "丹东": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "延边": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "酒泉": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "阿克苏": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "梧州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "牡丹江": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "池州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "葫芦岛": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "佳木斯": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "通化": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "朝阳": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "六盘水": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "延安": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "内江": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "自贡": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "漯河": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "新余": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "西双版纳": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "湘西": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "黔西南": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "张家界": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "昭通": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "丽江": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "贵港": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "嘉峪关": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "云浮": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    },
+    "钦州": {
+      "tier": "tier3_plus",
+      "label": "三四线及以下",
+      "sheet_label": "三四线(五线)"
+    }
+  },
+  "by_tier": {
+    "tier1": [
+      "上海",
+      "北京",
+      "深圳",
+      "广州"
+    ],
+    "new_tier1": [
+      "成都",
+      "杭州",
+      "重庆",
+      "武汉",
+      "苏州",
+      "西安",
+      "南京",
+      "长沙",
+      "郑州",
+      "天津",
+      "合肥",
+      "青岛",
+      "东莞",
+      "宁波",
+      "佛山"
+    ],
+    "tier2": [
+      "济南",
+      "无锡",
+      "沈阳",
+      "昆明",
+      "福州",
+      "厦门",
+      "温州",
+      "石家庄",
+      "大连",
+      "哈尔滨",
+      "金华",
+      "泉州",
+      "南宁",
+      "长春",
+      "常州",
+      "南昌",
+      "南通",
+      "贵阳",
+      "嘉兴",
+      "徐州",
+      "惠州",
+      "太原",
+      "烟台",
+      "临沂",
+      "保定",
+      "台州",
+      "绍兴",
+      "珠海",
+      "洛阳",
+      "潍坊"
+    ],
+    "tier3_plus": [
+      "乌鲁木齐",
+      "兰州",
+      "中山",
+      "盐城",
+      "海口",
+      "扬州",
+      "济宁",
+      "湖州",
+      "赣州",
+      "邯郸",
+      "南阳",
+      "唐山",
+      "芜湖",
+      "阜阳",
+      "廊坊",
+      "汕头",
+      "泰州",
+      "呼和浩特",
+      "镇江",
+      "江门",
+      "枣庄",
+      "宜宾",
+      "榆林",
+      "开封",
+      "邵阳",
+      "运城",
+      "清远",
+      "吉安",
+      "日照",
+      "许昌",
+      "包头",
+      "郴州",
+      "滨州",
+      "丽水",
+      "宣城",
+      "淮南",
+      "平顶山",
+      "东营",
+      "南充",
+      "秦皇岛",
+      "黄山",
+      "鞍山",
+      "晋中",
+      "曲靖",
+      "孝感",
+      "忻州",
+      "盘锦",
+      "伊犁",
+      "丹东",
+      "延边",
+      "酒泉",
+      "阿克苏",
+      "梧州",
+      "牡丹江",
+      "池州",
+      "葫芦岛",
+      "佳木斯",
+      "通化",
+      "朝阳",
+      "六盘水",
+      "延安",
+      "内江",
+      "自贡",
+      "漯河",
+      "新余",
+      "西双版纳",
+      "湘西",
+      "黔西南",
+      "张家界",
+      "昭通",
+      "丽江",
+      "贵港",
+      "嘉峪关",
+      "云浮",
+      "钦州"
+    ]
+  }
+}

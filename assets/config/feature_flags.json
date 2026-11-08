@@ -1,0 +1,8 @@
+{
+  "cloud_sync": false,
+  "city_tier_offset_enabled": true,
+  "aging_entry_optional": true,
+  "analytics_enabled": false,
+  "default_floor_height_cm": 280,
+  "default_door_width_cm": 80
+}

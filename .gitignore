@@ -1,0 +1,50 @@
+# Dart / Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+*.iml
+.idea/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / local config (never commit)
+.env
+.env.*
+*.key
+*.pem
+*.jks
+*.keystore
+key.properties
+**/key.properties
+android/key.properties
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+**/secrets.json
+**/credentials.json
+
+# Native / generated (slice excludes platform trees; ignore if recreated)
+android/
+ios/
+macos/
+linux/
+windows/
+web/
+*.g.dart
+*.freezed.dart
+*.maps
+mapping.txt
+app.*.symbols
+app.*.map.json
